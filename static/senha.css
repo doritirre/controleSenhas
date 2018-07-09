@@ -1,0 +1,40 @@
+
+#valor1 {
+    text-align: center;
+    font-size: 70px;
+    background-color: #005cbf;
+    border: #005cbf solid 10px;
+    color: #FAFFFA;
+    text-transform: uppercase;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+#valor2 {
+    text-align: center;
+    font-size: 70px;
+    background-color: #005cbf;
+    border: #005cbf solid 10px;
+    color: #FAFFFA;
+    text-transform: uppercase;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+#total {
+    text-align: center;
+    font-size: 70px;
+    background-color: #005cbf;
+    border: #005cbf solid 10px;
+    color: #FAFFFA;
+    text-transform: uppercase;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+}

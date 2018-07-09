@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Controle de Senhas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='senha.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
+
+
+</head>
+<body>
+    <div class="jumbotron text-center apresentacao">
+        <div>
+            <h1>Teste de Senhas</h1>
+            <p>Efetuando o teste para auxiliar no aprendizado.</p>
+        </div>
+    </div>
+
+        <div id="valor1">
+            <p>{{ n1 }}</p>
+        </div>
+        <div id="valor2">
+            <p>{{ n2 }}</p>
+        </div>
+        <div id="total">
+            <p>{{ total }}</p>
+        </div>
+        <form action="/mudar" method="post">
+            <input type="submit" class="btn btn-default" value="MUDAR">
+        </form>
+</body>
+</html>
